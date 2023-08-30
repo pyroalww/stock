@@ -1,0 +1,16 @@
+{
+    "discord_webhook_url": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "check_hours": [9, 15, 16, 17, 18, 19, 20, 21],  
+    "check_interval_seconds": 1800, 
+
+    "thresholds": [
+        {
+            "above": 100,  
+            "below": 80   
+        },
+        {
+            "above": 200,
+            "below": 150
+        }
+    ]
+}
